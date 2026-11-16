@@ -1,0 +1,20 @@
+UI Skeleton prompts:
+
+Create a web app with these pages in a(n) single page application meaning you dont have to switch tabs:
+
+A login page where users will log in or can sign up 
+
+User page with the user’s wardrobe on the right; each clothing item is displayed in an individual card with attributes. On the left is the user’s profile with username and profile photo.
+
+An “Add to wardrobe” page, with a button in the user page, that allows users to add real-life articles of clothing to their wardrobes displayed on the first page. Users can add attributes to the clothing items they add, such as whether they would be good for certain weather types; this allows the app to figure out the user’s optimal outfit for the day’s weather. Use the database schema documentation to help you. 
+
+A Weather Data page that displays the user’s optimal outfit based on current weather conditions in a set area. This optimal outfit is created from what is in the wardrobe of the user on the user page. It contains the user’s optimal outfit, a weather radar linked to a real-time weather api, and a 7-day weather forecast also using weather from the api.
+
+Helpful information:
+We are using Python for our app so you can use GUI such as NiceGUI or any other good ones
+The attributes list should not be the same name as the we have it in the database, make it more human readable
+We will implement the API and other backend stuff on a later sprint such as the passwords and user accounts. 
+
+Results: 
+Put all files in the src folder please and thank you
+
